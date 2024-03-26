@@ -1,6 +1,6 @@
 #Basic Calculator Application
 
-This is a simple calculator application built using React Native.
+This is a simple calculator application built using React JS.
 
 ## Features
 
@@ -10,11 +10,35 @@ This is a simple calculator application built using React Native.
 - Support for basic arithmetic operations
 - showing the result of each operation on the seprate row
 
-## Install this Repository
+## Download and Install this Repository
 
-To run this calculator app on your local machine, follow these steps:
-
-1. Clone this repository to your local machine:
-Open Git Bash on a selected folder and type below command.
+To run this calculator app on your local machine Clone this repository to your local machine:
+1. Open Git Bash on a selected folder and type below command.
   - git clone <repository-url>
+
+2. Navigate to the project directory:
+  - cd BasicCalculator
+
+3. Install dependencies using npm
+  - rnpm install
+    
+4. Start the React development server:
+  - npm run dev
+
+Open your web browser and go to http://localhost:5173 to view the application. 
+
+
+## Usage
+Once the app is running, can perform the following actions:
+  - Click on the digits to input numbers.
+  - Click on the operation buttons (+, -, *, /,**, Square Root) to perform operations.
+  - Click on the "=" button to display the result.
+  - Click on the "Del" button to delete the input one by one.
+  - Click on the "C" button to clear the input and the result.
+
+## Technologies Used
+  - React: React Documentation
+  - JavaScript
+  - HTML
+  - CSS
   
