@@ -63,7 +63,7 @@ const Calculator = () => {
         <button onClick={() => handleButtonClick('+')}>+</button>
         
         <button onClick={calculateSquareRoot}>√</button>
-        <button onClick={() => handleButtonClick('0')}>0</button>
+        <button onClick={() => handleButtonClick('0')}>00</button>
         <button onClick={() => handleButtonClick('**')}>**</button>
         <button onClick={() => handleCalculate()}>=</button>
 
