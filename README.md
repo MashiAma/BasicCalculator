@@ -20,7 +20,7 @@ To run this calculator app on your local machine Clone this repository to your l
   - cd BasicCalculator
 
 3. Install dependencies using npm
-  - rnpm install
+  - npm install
     
 4. Start the React development server:
   - npm run dev
