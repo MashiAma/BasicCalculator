@@ -1,0 +1,73 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(8, 8, 8, 0.87);
+  background-color: #dafcf7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  margin-top: 5rem;
+  border: 6px solid #080808;
+  background-color: rgb(7, 7, 7);
+  padding: 5px;
+  text-align: right;
+}
+.header1 {
+  font-size: 2rem;
+  line-height: 1.1;
+  color: rgba(47, 18, 150, 0.87);
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 30rem;
+  position: absolute;
+  top: 0px;
+
+}
+
+.input {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  height: 5rem;
+  padding: 1px;
+  background-color: #82d3f3;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+
+button {
+  font-size: 1.2em;
+  height: 3.5rem;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #020202;
+  border: 2px solid #fffefe;
+  text-decoration: double;
+}
+
+button:hover {
+  background-color: #5a5c5c;
+}
+
+.result {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  height: 5rem;
+  padding: 1px;
+  background-color: #82d3f3;
+}
+
