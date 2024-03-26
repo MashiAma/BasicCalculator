@@ -1,4 +1,4 @@
-#Basic Calculator Application
+## Basic Calculator Application
 
 This is a simple calculator application built using React JS.
 
